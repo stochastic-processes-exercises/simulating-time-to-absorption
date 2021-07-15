@@ -2,7 +2,7 @@
 
 Consder the Markov chain that is illustrated in the transition graph shown below:
 
-![](graph.png)
+![](chain.png)
 
 States 2, 3 and 4 in this chain are transient and states 1 and 5 are absorbing.  If the chain is run for long enough the system is guaranteed to end up in state 1 or state 5.  If we told that a phenomenon can be modelled using this Markov chain we might choose to investigate the random variable that measures how many transitions occur before the system ends up in state 1 or 5.  Your task in this exercise is thus to write a function to generate samples of this random variable.
 
